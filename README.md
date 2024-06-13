@@ -32,7 +32,8 @@ Se o usuário quiser caracteres especiais, então *allChars* terá os caracteres
 
 7.No final do códidgo colocamos `return password` que retornará o valor dentro do `console.log()`
 
-`function passwordGenerator(length, includeSpecialChars){`
+
+    function passwordGenerator(length, includeSpecialChars){
 
     let password = ""
 
@@ -46,4 +47,7 @@ Se o usuário quiser caracteres especiais, então *allChars* terá os caracteres
         let indiceAletorio = Math.floor(Math.random() * allChars.length);
         let caracterEscolhido = allChars[indiceAletorio]
         password += caracterEscolhido;
-    }
+    } 
+`return password`
+`}`
+`console.log(passwordGenerator(10, false))`
