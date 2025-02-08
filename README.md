@@ -32,7 +32,7 @@ Se o usuário quiser caracteres especiais, então **allChars** terá os caracter
 
 7.No final do códidgo colocamos `return password` que retornará o valor dentro do `console.log()`
 
-
+```javascript
     `function passwordGenerator(length, includeSpecialChars){
 
     let password = ""
@@ -51,3 +51,4 @@ Se o usuário quiser caracteres especiais, então **allChars** terá os caracter
     return password
     }
     console.log(passwordGenerator(10, false))`
+```
