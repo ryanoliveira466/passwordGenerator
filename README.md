@@ -2,8 +2,8 @@
 
 ## Como funciona?
 
-Esse código funciona ao usuário colocar a quantidade de caracteres que ele deseja no item `length`
-e o usuário pode escolher se quer usar caracteres especiais marcando *true* ou *false* no item `includeSpecialChars` 
+Esse código funciona ao usuário colocar a quantidade de caracteres que ele deseja no item `length`.
+e o usuário pode escolher se quer usar caracteres especiais marcando *true* ou *false* no item `includeSpecialChars`. 
 
 ## Passo a passo
 
